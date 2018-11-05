@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.24)  2 OCT 2018 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  5 NOV 2018 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NumMethods1.tex
-(./NumMethods1.tex
+**Р§РјС‹-2.tex
+(./Р§РјС‹-2.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -874,8 +874,8 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./NumMethods1.aux)
-\openout1 = `NumMethods1.aux'.
+(./Р§РјС‹-2.aux)
+\openout1 = `Р§РјС‹-2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -897,8 +897,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 \AtBeginShipoutBox=\box31
 Package hyperref Info: Link coloring OFF on input line 23.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -910,9 +909,9 @@ LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
 
-(./NumMethods1.out) (./NumMethods1.out)
+(./Р§РјС‹-2.out) (./Р§РјС‹-2.out)
 \@outlinefile=\write3
-\openout3 = `NumMethods1.out'.
+\openout3 = `Р§РјС‹-2.out'.
 
 
 *geometry* driver: auto-detecting
@@ -996,186 +995,154 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 49.
+(babel)             in language append on input line 70.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 49.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
+(babel)             in language append on input line 70.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 64.
+(babel)             in language append on input line 74.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 64.
+(babel)             in language append on input line 74.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 64.
+(babel)             in language append on input line 74.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 64.
-[1
+(babel)             in language append on input line 74.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 105.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 105.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 105.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 105.
+ [2]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 116.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 116.
 
+Overfull \hbox (12.77855pt too wide) in paragraph at lines 125--125
+|\T2A/cmr/bx/n/17.28 Oценки по-греш-но-сти ап-прок-си-ма-ции гра-нич-ных усло-
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 125.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 125.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 137.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 137.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 137.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 137.
+[3]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 144.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 144.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 150.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 150.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 151.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 151.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 176.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 176.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 176.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 176.
+ [4]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 199.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 199.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 205.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 205.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 205.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 205.
+ [5]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 220.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 220.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language append on input line 234.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language append on input line 234.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\delta' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
-
-
-LaTeX Warning: Command \CYRS invalid in math mode on input line 70.
-
-Missing character: There is no С in font cmr8!
-
-Overfull \hbox (18.16559pt too wide) in paragraph at lines 70--71
-[]\T2A/cmr/m/n/12 Теперь нам необ-хо-ди-мо по-до-брать чис-ла $\OML/cmm/m/it/12
- ^^N[]$ \T2A/cmr/m/n/12 и $\OML/cmm/m/it/12 C$ \T2A/cmr/m/n/12 та-ким об-ра-зом
-, что-бы $[] \U/msa/m/n/12 6
+Overfull \hbox (40.59871pt too wide) in paragraph at lines 235--236
+[]\T2A/cmr/m/n/12 Воспользуемся пра-ви-лом Рун-ге. Бу-дем за-пус-кать про-грам-
+му для $\OML/cmm/m/it/12 N \OT1/cmr/m/n/12 = 10\OML/cmm/m/it/12 ;  \OT1/cmr/m/n
+/12 20\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 40\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/
+n/12 10 \OMS/cmsy/m/n/12 ^^A
  []
 
 
-Overfull \hbox (57.10594pt too wide) in paragraph at lines 94--94
+Overfull \hbox (52.15347pt too wide) in paragraph at lines 239--239
 [] 
  []
 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 97.
+(babel)             in language append on input line 254.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 97.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 97.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 97.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 97.
-
+(babel)             in language append on input line 254.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 99.
+(babel)             in language append on input line 254.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 99.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 99.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 99.
-[2]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 100.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 100.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 106.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 106.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 131.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 131.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 131.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 131.
- [3]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 133.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 133.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 147.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 147.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 158.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 158.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 170.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 170.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 170.
- [4]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 172.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 172.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 184.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language append on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language append on input line 184.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
- (./NumMethods1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
-Package rerunfilecheck Info: File `NumMethods1.out' has not changed.
-(rerunfilecheck)             Checksum: 3E08338038E3402DF16C403AA25EB41A;2281.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
+(babel)             in language append on input line 254.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
+ (./Р§РјС‹-2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
+Package rerunfilecheck Info: File `Р§РјС‹-2.out' has not changed.
+(rerunfilecheck)             Checksum: 2FB49F77CF885C4A415E0A5F44F65BAF;2662.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 12831 strings out of 493029
- 174841 string characters out of 6136234
- 262152 words of memory out of 5000000
- 16193 multiletter control sequences out of 15000+600000
- 17429 words of font info for 52 fonts, out of 8000000 for 9000
+ 12825 strings out of 493029
+ 174779 string characters out of 6136233
+ 265154 words of memory out of 5000000
+ 16190 multiletter control sequences out of 15000+600000
+ 16439 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,35p,573b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,17n,35p,806b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on NumMethods1.pdf (5 pages, 170777 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfb
+x1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti
+1200.pfb>
+Output written on Р§РјС‹-2.pdf (6 pages, 214931 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 125 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 167 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
