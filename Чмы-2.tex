@@ -147,10 +147,46 @@
 	\notag u_{n + 1} = u_{n} + u'_nh + \frac{u''_n}{2}h^2 + \frac{u'''_n}{6}h^3 + O(h^4)\\
 	\notag u_{n - 1} = u_n - u'_nh + \frac{u''_n}{2}h^2 - \frac{u'''_n}{6}h^3 + O(h^4)
 \end{gather}
-Преобразуем данные разложение следующим образом:
+Преобразуем данные разложения следующим образом:
 \begin{gather}
-	\tilde{k_{n+1/2}}
+	\tilde{k}_{n+1/2} \frac{u_{n + 1} - u_{n}}{h} = \tilde{k}_{n + 1/2}\Big(u'_n + \frac{u''_n}{2}h + \frac{u'''_n}{6}h^2 + O(h^3)\Big) \\
+	\tilde{k}_{n - 1/2}\frac{u_n - u_{n - 1}}{h} = \tilde{k}_{n - 1/2}\Big(u'_n - \frac{u''_n}{2}h + \frac{u'''_n}{6}h^2 + O(h^3)\Big)
 \end{gather}
+Так как k(x) не меняет значения на отрезке $[x_{n - 1}, x_{n + 1}]$ то 
+\begin{gather}
+	\notag \frac{\tilde{k}_{n + 1/2}(u_{n + 1} - u_n) - \tilde{k}_{n -1/2}(u_n - u_{n - 1})}{h^2} = k_n(u''_n + O(h^2))
+\end{gather}
+Так как, q(x) не меняет значения на отрезке $[x_{n -1}, x_{n + 1}]$, получим:
+\begin{gather}
+	\notag L_h(u) - \tilde{f}_n = \frac{\tilde{k}_{n + 1/2}(u_{n + 1} - u_n) - \tilde{k}_{n - 1/2}(u_n - u{n -1})}{h^2} - \tilde{q}_nu_n - \tilde{f}_n = k_nu''_n - q_nu_n - \tilde{f}_n +O(h^2) = \\ f_n - \tilde{f}_n + O(h^2) = O(h^2)
+\end{gather}
+Покажем, что $ f_n - \tilde{f}_n = O(h^2)$
+\begin{gather}
+	\notag \tilde{f}_n = \frac{1}{h} \int_{x_{n - 1/2}}^{x_{n + 1/2}}sin(x)dx = \frac{1}{h}(cos(x_{n - 1/2}) - cos(x_{n + 1/2})) \\
+	\notag f_n - \tilde{f}_n = sin(x_n) - \frac{1}{h}(cos(x_{n - 1/2}) - cos(x_{n + 1/2})) = \\sin(x_n) - \frac{1}{h}(cos(x_n)cos(\frac{h}{2}) + sin(x_n)sin{\frac{h}{2}} - cos(x_n)cos(\frac{h}{2}) + sin(x_n)sin(\frac{h}{2})) \\
+	= sin(x_n) - \frac{2}{h}(sin(x_n)sin(\frac{h}{2})) = \frac{2}{h}sin(x_n)(\frac{h}{2} - sin(\frac{h}{2})) = \frac{2}{h}O(h^3) = O(h^2)
+\end{gather}
+Рассмотрим теперь такие $n$, что $k(x)$ и $q(x)$ разрывны в точках $x_n$. В $x_n$ функция $u$ имеет непрерывные правые и левые производные, следовательно, можно записать:
+\begin{gather*}
+	u_{n+1} = u_n + hu_{n,r}' + \frac{h^2}{2}u_{n,r}'' + O(h^3), \\
+	u_{n-1} = u_n - hu_{n,l}' + \frac{h^2}{2}u_{n,l}'' + O(h^3), \\
+\end{gather*}
+где вторые нижние индексы у производных $u$ обозначают правую $(r)$ и левую $(l)$ производные соответственно. Далее:
+\begin{gather*}
+	\notag \frac{u_{n+1} - u_n}{h} = \l(u_{n,r}' + \frac{h}{2}u_{n,r}'' + O(h^2) \r) \\
+	\notag \frac{u_n - u_{n-1}}{h} = \l(u_{n,l}' - \frac{h}{2}u_{n,l}'' + O(h^2) \r)
+\end{gather*}
+Из условия непрерывности $ku'$ имеем $k_{n+1/2}u_{n,r}' = k_{n-1/2}u_{n,l}'$. Воспользовавшись вышедоказанным равенством $f_n - \tilde f_n = O(h^2)$, получим:
+\begin{align*}
+	L_{N}(u) - \tilde f_n &= \frac{\tilde{k}_{n + 1/2}(u_{n+1}-u_n) - \tilde{k}_{n - 1/2}(u_n - u_{n-1})}{h^2} - \tilde q_n u_n - \tilde f_n \\ 
+	&= \frac{1}{2}(k_{n+1/2}u_{n,r}'' + k_{n-1/2}u_{n,l}'') - \frac{q_{n+1/2}+q_{n-1/2}}{2}u_n - \tilde f_n + O(h) = \\
+	&= \frac{1}{2}(k_{n+1/2}u_{n,r}'' - q_{n+1/2}u_n) + \frac{1}{2}(k_{n-1/2}u_{n,l}'' - q_{n-1/2}u_n) - \tilde f_n + O(h) = \\ 
+	&= f_n - \tilde f_n + O(h) = O(h)
+\end{align*}
+Таким образом, в точках разрыва $k(x)$ и $q(x)$ погрешность аппроксимации уравнения составляет $O(h)$. 
+Вычислим теперь погрешность аппроксимации в норме $L_1$. В $N-3$ точках погрешность равна $O(h^2)$, а в двух других -- $O(h)$. Тогда погрешность в норме $L_1$ равна:
+$$(N-3)hO(h^2) + 2hO(h) = NhO(h^2) + O(h^3) + O(h^2) = O(h^2),$$
+то есть разностная схема $(1)$ имеет \textbf{второй порядок аппроксимации.}
 \section{Метод прогонки}
 \subsection{Описание метода прогонки}
 Система уравнений (1), (2), (3) записывается в виде $Ay = b$, где 
@@ -244,10 +280,10 @@ $$\| y - \tilde y \| \le C_2 \| F_h - \tilde F_h \| = C_2 \| A_h u - F_h \| \le 
 
 Метод Рунге завершил свою работу при $N = 640$. График полученного решения представлен ниже на Рис. 1.
 
-%\begin{figure}[h]
-%	\includegraphics[width=150mm]{figure_1.png}		
-%	\caption{График построенного приближенного решения}
-%\end{figure}
+\begin{figure}[h]
+\includegraphics[width=150mm]{Figure_1.png}		
+	\caption{График построенного приближенного решения}
+\end{figure}
 	
 
 
