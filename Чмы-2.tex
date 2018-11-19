@@ -202,17 +202,17 @@ $$(N-3)hO(h^2) + 2hO(h) = NhO(h^2) + O(h^3) + O(h^2) = O(h^2),$$
 	\end{pmatrix}
 	, \qquad b = 
 	\begin{pmatrix}
-		\delta_1 \\ \tilde f_1 \\ \tilde f_2 \\ \vdots \\ \vdots \\ \tilde f_{N-1} \\ 0	
+		\delta_1 \\ \tilde f_1 \\ \tilde f_2 \\ \vdots \\ \vdots \\ \tilde f_{N-1} \\ 1
 	\end{pmatrix}	
 \end{gather}
 \begin{gather*}
-	\beta_0 = \frac{k_0}{h} + \frac{hq_0}{2} \\
+	\beta_0 = \frac{k_0}{h} + \frac{hq_0}{2} - 0.1\\
 	\gamma_0 = \frac{k_0}{h} \\
 	\delta_1 = \frac{hf_0}{2} \\
 	\\
-	\alpha_n = \frac{a_{n-1}}{h^2} \\ 
-	\beta_n = \frac{a_{n-1} + a_n}{h^2} + \tilde q_n \\
-	\gamma_n = \frac{a_n}{h^2}
+	\alpha_n = \frac{k_{n-1}}{h^2} \\ 
+	\beta_n = \frac{k_{n-1} + k_n}{h^2} + \tilde q_n \\
+	\gamma_n = \frac{k_n}{h^2}
 \end{gather*}
 Отметим, что все $\alpha_n, \beta_n, \gamma_n$ $(n = 1,2,\dots,N-1)$ положительны. 
 
@@ -278,7 +278,7 @@ $$\| y - \tilde y \| \le C_2 \| F_h - \tilde F_h \| = C_2 \| A_h u - F_h \| \le 
 	\frac{10}{2N} \l( \sum_{i=1}^{N-1}{\l| y_i^{(N)} - y_{2i}^{(2N)} \r|} + \sum_{i=1}^{N}{ \l| \frac{y_i^{(N)} + y_{i-1}^{(N)}}{2}  - y_{2i-1}^{(2N)} \r|} \r) + \l|y_0^{(N)} - y_{0}^{(2N)}\r| + \l|y_N^{(N)} - y_{2N}^{(2N)}\r| < \varepsilon = 10^{-2}
 \end{gather*}
 
-Метод Рунге завершил свою работу при $N = 640$. График полученного решения представлен ниже на Рис. 1.
+Метод Рунге завершил свою работу при $N = 2048$. График полученного решения представлен ниже на Рис. 1.
 
 \begin{figure}[h]
 \includegraphics[width=150mm]{Figure_1.png}		
