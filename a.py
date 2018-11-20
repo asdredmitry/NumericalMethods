@@ -144,12 +144,12 @@ Eps = 0.01
 c = RungeSolve(2, Eps)
 Plot(c)
 
-#N = input("Please, type custom N: ")
+N = input("Please, type custom N: ")
 c = Solve(N)
 Plot(c)
 
-#microScope(c)
-#microScope(c)
+microScope(c)
+microScope(c)
 
 
 
